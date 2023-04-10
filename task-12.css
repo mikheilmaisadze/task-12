@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "mulish";
+    src: url("mulish.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "oxygen";
+    src: url("Oxygen-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+body {
+    padding: 0  240px;
+    position: relative;
+}
+
+h1 {
+    width: 603px;
+    height: 126px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 63.36px;
+    color: #000;
+    margin-top: 138px;
+    text-transform: capitalize;
+    font-family: "inter";
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 61px;
+    height: 61px;
+}
+
+nav div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-right: 110px;
+
+}
+
+nav div a {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "mulish";
+    line-height: 30.12px;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-inline: 10px;
+}
+
+ nav div a:hover{
+    color: rgb(2, 2, 238);
+}
+
+
+nav div a:active {
+color: red;
+}
+
+p {
+    font-family: "inter";
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+width: 700px;
+height: 153px;
+text-transform: capitalize;
+word-wrap: break-word;
+margin-top: 35px;
+}
+
+button {
+    font-family: "oxygen";
+    margin-top: 35px;
+    border: none;
+    width: 206px;
+    height: 75px;
+    background: rgba(85, 85, 255, 0.81);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45.46px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.computer {
+ position: absolute;
+ height: 328px;
+width: 492.5836486816406px;
+left: 1000px;
+top: 286px;
+border-radius: 0px;
+}
+
